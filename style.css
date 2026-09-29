@@ -1,0 +1,97 @@
+:root {
+    --primary: rgb(85, 100, 165);
+    --secondary: rgb(164, 245, 161);
+    --text: rgb(58, 94, 66);
+}
+
+.navbar {
+    background-color: var(--primary);
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.navbar button {
+    background-color: var(--secondary);
+    border-radius: 25px;
+    padding: 15px;
+    color: var(--text);
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+
+button:hover {
+    background-color: rgb(167, 167, 241);
+    color: var(--text);
+}
+
+#headflex {
+    background-color: rgb(167, 167, 241);
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#name > h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#name > h4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.display {
+    margin-top: 15px;
+    color: var(--text);
+    background-color: var(--primary);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.para {
+    background-color: var(--secondary);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.head {
+    background-color: azure;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#proj > a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#res{
+    color: azure;
+}
